@@ -1,0 +1,5 @@
+# Normalize line endings to LF on checkout across all platforms so the corpus
+# and scripts behave identically on macOS, Linux, and Windows. (This affects
+# CRLF vs LF only; the corpus's intentional trailing spaces and missing final
+# newlines are preserved — fixing those is docforge's job.)
+* text=auto eol=lf

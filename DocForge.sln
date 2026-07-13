@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D41C1303-C0E8-404D-9E5D-2FC7932F313D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocForge", "src\DocForge\DocForge.csproj", "{18FA0695-B095-4926-A688-638AE75C72F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F6113F1C-5487-4D36-82C7-AAC3C0C8B51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocForge.Tests", "tests\DocForge.Tests\DocForge.Tests.csproj", "{3970A3BF-B2AA-495E-8BDB-30EA997234A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18FA0695-B095-4926-A688-638AE75C72F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FA0695-B095-4926-A688-638AE75C72F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FA0695-B095-4926-A688-638AE75C72F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FA0695-B095-4926-A688-638AE75C72F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3970A3BF-B2AA-495E-8BDB-30EA997234A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3970A3BF-B2AA-495E-8BDB-30EA997234A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3970A3BF-B2AA-495E-8BDB-30EA997234A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3970A3BF-B2AA-495E-8BDB-30EA997234A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18FA0695-B095-4926-A688-638AE75C72F8} = {D41C1303-C0E8-404D-9E5D-2FC7932F313D}
+		{3970A3BF-B2AA-495E-8BDB-30EA997234A2} = {F6113F1C-5487-4D36-82C7-AAC3C0C8B51A}
+	EndGlobalSection
+EndGlobal

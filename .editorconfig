@@ -1,0 +1,21 @@
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+[*.{sh,md,txt,json,csproj,sln}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+
+# The corpus is intentionally messy — that is the lab. Don't let an editor
+# "fix" it; that's docforge's job.
+[docs/**]
+trim_trailing_whitespace = false
+insert_final_newline = false
