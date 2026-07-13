@@ -15,11 +15,11 @@ fi
 
 titles=(
   ""
-  "Rule 1 — whitespace (trailing space, final newline, blank runs)"
-  "Rule 2 — heading style (space after #, no closing #)"
-  "Rule 3 — unordered lists (- marker, one space)"
-  "Rule 4 — code fences (opening fence declares a language)"
-  "Rule 5 — line length (wrap prose over 100 columns)"
+  "Rule 1 - whitespace (trailing space, final newline, blank runs)"
+  "Rule 2 - heading style (space after #, no closing #)"
+  "Rule 3 - unordered lists (- marker, one space)"
+  "Rule 4 - code fences (opening fence declares a language)"
+  "Rule 5 - line length (wrap prose over 100 columns)"
 )
 
 for step in 1 2 3 4 5; do
