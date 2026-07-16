@@ -9,12 +9,12 @@ and it drifts), you build `docforge` — a small .NET tool whose engine enforces
 
 ## Steps
 
-1. **Enable the Stop hook** so Claude keeps working until the gate is green:
-   ```sh
-   cp .claude/settings.json.disabled .claude/settings.json          # macOS / Linux
-   cp .claude/settings.windows.json.disabled .claude/settings.json  # Windows
+1. **Set the goal gate** so Claude keeps working until the gate is green — nothing to
+   pre-configure, just type in Claude Code:
    ```
-   Run `/hooks` to confirm it registered.
+   /goal the check script (check.sh or check.ps1) exits 0 with no failures, or stop after 15 turns
+   ```
+   Run a bare `/goal` to confirm it's active (`/goal clear` removes it).
 
 2. **Ask Claude:** "make check.sh pass" (`check.ps1` on Windows). The gate builds
    then runs five steps (one per `STYLE.md` rule), stopping at the first failure,
