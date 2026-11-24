@@ -1,5 +1,7 @@
 # CC-Lab-4 — `docforge`
 
+[![GitHub stars](https://img.shields.io/github/stars/aovestdipaperino/CC-Lab-4?logo=github&color=brightgreen)](https://github.com/aovestdipaperino/CC-Lab-4/stargazers)
+
 Lab 4: **distill a recurring task into a deterministic tool.**
 
 `docs/` has 40 messy markdown documents; `STYLE.md` is the house style they
